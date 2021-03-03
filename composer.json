@@ -1,0 +1,19 @@
+{
+    "name": "vincent-ferieekissi/poo",
+    "authors": [
+        {
+            "name": "Vincent-Férié",
+            "email": "arshey@live.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\" : "routes/",
+            "App\\" : "app/",
+            "Database\\" : "database/"
+        }
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}
